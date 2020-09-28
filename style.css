@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Lato;
+	
+}
+
+.header1{
+	background-color: #00000f;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	justify-content: center;
+	
+} 
+.tekstpowitalny{
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+	padding-top: 10px;
+}
+.navbar-nav li:hover>.dropdown-menu{
+	display: block;
+	
+}
+.fa-discord{
+	font-size: 50px; 
+	margin: 20px 30px;
+	color: white;
+}
+.fa-facebook{
+	font-size: 50px; 
+	margin: 20px 30px;
+	color: white;
+}
+.fa-youtube{
+	font-size: 50px; 
+	margin: 20px 30px;
+	color: white;
+}
+.fa-discord:hover{
+	font-size: 50px; 
+	margin: 20px 30px;
+	color: #7289DA;
+	transition: all .5s;
+	transform: scale(1.2);
+}
+.fa-facebook:hover{
+	font-size: 50px; 
+	margin: 20px 30px;
+	color: #2f55a4;
+	transition: all .5s;
+	transform: scale(1.2);
+}
+.fa-youtube:hover{
+	font-size: 50px; 
+	margin: 20px 30px;
+	color: #FF0000;
+	transition: all .5s;
+	transform: scale(1.2);
+}
+.fa-play{
+	font-size: 100px; 
+	color: white;
+}
+.hoverimg{
+	position: relative;
+}
+.image-yt{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transistion: .7s ease;
+}
+.play{
+	transition: .7s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.hoverimg:hover .image-yt{
+	opacity: 0.7;
+	background-color: grey;
+	
+}
+.hoverimg:hover .play{
+	opacity: 1;
+	
+}
+.wyscig{
+	text-align: center;
+	margin: auto;
+	font-size: 10px;
+}
+.zegarek{
+	border-radius: 5px;
+	text-align: center;
+	background-color: #00aaaa;
+}
+.gorazegarek{
+	background-color: white;
+} 
+.DniSplit1, .GodzSplit1, .MinSplit1, .SekSplit1{
+	font-size: 20px;
+}
+.DniSplit2, .GodzSplit2, .MinSplit2, .SekSplit2{
+	font-size: 20px;
+}
+.Czas{
+	font-size: 20px;
+	
+}
+.footer li{
+	list-style-type: none;
+}
+.footer a:hover{
+	text-decoration: none;
+	color: white;
+}
+.footer a{
+	text-decoration: none;
+	color: grey;
+}
+footer{
+	background: #383838;
+	padding: 1rem 2rem 3rem;
+}
+footer img{
+	height: 3.5rem;
+	margin: 1.5rem auto;
+}
+.socket{
+	background-color: #222222;
+	border-top: .1rem solid #4981b3;
+}
+.menu{
+	font-size: 20px;
+}
+.contentemoji{
+	background-color: #383838;
+}
+.pasekh{
+	border-top: 1px solid black;
+	background-color: #dfdfdf;
+	padding: 5px;
+	
+}
+
+.pasekhul{
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.pasekhul li{
+	display: inline;
+	
+}
+.pasekhula{
+	text-decoration: none;
+	color: black;
+}
+.pasekhula:hover{
+	text-decoration: none;
+	color: #00aaff;
+}
+.wpis{
+	text-align: justify;
+	font-size: 18px;
+}
+.artykul{
+	border-radius: 10px;
+	background: white;
+	box-shadow: 0px 0px 10px grey;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+.carousel-caption{
+	position: absolute;
+	top: 54%;
+	transform: translateY(-50%);
+}
+.bg-custom{
+	background-color: rgba(0,0,0, 0.4);
+	border-radius: 15px;
+	
+}
+.welcome hr{
+	border-top: 2px solid #4981b3;
+	width: 100%;
+	margin-top: .3rem;
+}
+.zespol{
+	box-shadow: 0px 0px 10px grey;
+}
+.Kontakt .fa-discord{
+	font-size: 50px; 
+	margin: 20px 30px;
+	color: black;
+	
+}
+.Kontakt .fa-discord:hover{
+	margin: 20px 30px;
+	color: #7289DA;
+	transition: all .3s;
+	transform: scale(1.2);
+}

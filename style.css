@@ -1,79 +1,75 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
-	font-family: Lato;
-	
+	font-family: 'Lato', sans-serif;
+
 }
 
-.header1{
-	background-color: #00000f;
-	width: 100%;
-	height: 50px;
-	text-align: center;
-	justify-content: center;
-	
-} 
-.tekstpowitalny{
-	display: inline-block;
-	font-size: 20px;
-	color: white;
-	padding-top: 10px;
-}
-.navbar-nav li:hover>.dropdown-menu{
+.navbar-nav li:hover>.dropdown-menu {
 	display: block;
-	
+
 }
-.fa-discord{
-	font-size: 50px; 
+
+.fa-discord {
+	font-size: 50px;
 	margin: 20px 30px;
 	color: white;
+	transition: all .5s;
 }
-.fa-facebook{
-	font-size: 50px; 
+
+.fa-facebook {
+	font-size: 50px;
 	margin: 20px 30px;
 	color: white;
+	transition: all .5s;
 }
-.fa-youtube{
-	font-size: 50px; 
+
+.fa-youtube {
+	font-size: 50px;
 	margin: 20px 30px;
 	color: white;
+	transition: all .5s;
 }
-.fa-discord:hover{
-	font-size: 50px; 
+
+.fa-discord:hover {
+	font-size: 50px;
 	margin: 20px 30px;
 	color: #7289DA;
-	transition: all .5s;
 	transform: scale(1.2);
 }
-.fa-facebook:hover{
-	font-size: 50px; 
+
+.fa-facebook:hover {
+	font-size: 50px;
 	margin: 20px 30px;
 	color: #2f55a4;
-	transition: all .5s;
 	transform: scale(1.2);
 }
-.fa-youtube:hover{
-	font-size: 50px; 
+
+.fa-youtube:hover {
+	font-size: 50px;
 	margin: 20px 30px;
 	color: #FF0000;
-	transition: all .5s;
 	transform: scale(1.2);
 }
-.fa-play{
-	font-size: 100px; 
+
+.fa-play {
+	font-size: 100px;
 	color: white;
 }
-.hoverimg{
+
+.hoverimg {
 	position: relative;
 }
-.image-yt{
+
+.image-yt {
 	opacity: 1;
 	display: block;
 	width: 100%;
 	height: auto;
-	transistion: .7s ease;
+	transition: .7s ease;
 }
-.play{
+
+.play {
 	transition: .7s ease;
 	opacity: 0;
 	position: absolute;
@@ -83,132 +79,452 @@
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
 }
-.hoverimg:hover .image-yt{
+
+.hoverimg:hover .image-yt {
 	opacity: 0.7;
 	background-color: grey;
-	
+
 }
-.hoverimg:hover .play{
+
+.hoverimg:hover .play {
 	opacity: 1;
-	
+
 }
-.wyscig{
+
+.wyscig {
 	text-align: center;
 	margin: auto;
 	font-size: 10px;
 }
-.zegarek{
+
+.zegarek {
 	border-radius: 5px;
 	text-align: center;
 	background-color: #00aaaa;
+	padding: 5px;
 }
-.gorazegarek{
-	background-color: white;
-} 
-.DniSplit1, .GodzSplit1, .MinSplit1, .SekSplit1{
+
+.DniSplit1,
+.GodzSplit1,
+.MinSplit1,
+.SekSplit1 {
 	font-size: 20px;
 }
-.DniSplit2, .GodzSplit2, .MinSplit2, .SekSplit2{
+
+.DniSplit2,
+.GodzSplit2,
+.MinSplit2,
+.SekSplit2 {
 	font-size: 20px;
 }
-.Czas{
+
+.Czas {
 	font-size: 20px;
-	
+
 }
-.footer li{
+
+.footer li {
 	list-style-type: none;
 }
-.footer a:hover{
+
+.footer a:hover {
 	text-decoration: none;
 	color: white;
 }
-.footer a{
+
+.footer a {
 	text-decoration: none;
 	color: grey;
 }
-footer{
+
+footer {
 	background: #383838;
 	padding: 1rem 2rem 3rem;
 }
-footer img{
+
+footer img {
 	height: 3.5rem;
 	margin: 1.5rem auto;
 }
-.socket{
+
+.socket {
 	background-color: #222222;
 	border-top: .1rem solid #4981b3;
 }
-.menu{
+
+.menu {
 	font-size: 20px;
 }
-.contentemoji{
+
+.contentemoji {
 	background-color: #383838;
 }
-.pasekh{
+
+.pasekh {
 	border-top: 1px solid black;
 	background-color: #dfdfdf;
 	padding: 5px;
-	
+
 }
 
-.pasekhul{
+.pasekhul {
 	list-style-type: none;
 	display: block;
 	margin: 0;
 	padding: 0;
 }
-.pasekhul li{
+
+.pasekhul li {
 	display: inline;
-	
+
 }
-.pasekhula{
+
+.pasekhula {
 	text-decoration: none;
 	color: black;
 }
-.pasekhula:hover{
+
+.pasekhula:hover {
 	text-decoration: none;
 	color: #00aaff;
 }
-.wpis{
+
+.wpis {
 	text-align: justify;
 	font-size: 18px;
 }
-.artykul{
+
+.artykul {
 	border-radius: 10px;
 	background: white;
 	box-shadow: 0px 0px 10px grey;
 }
-.carousel-inner img{
+
+.carousel-inner img {
 	width: 100%;
 	height: 100%;
 }
-.carousel-caption{
+
+.carousel-caption {
 	position: absolute;
 	top: 54%;
 	transform: translateY(-50%);
 }
-.bg-custom{
-	background-color: rgba(0,0,0, 0.4);
+
+.bg-custom {
+	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 15px;
-	
+
 }
-.welcome hr{
+
+.welcome hr {
 	border-top: 2px solid #4981b3;
 	width: 100%;
 	margin-top: .3rem;
 }
-.zespol{
-	box-shadow: 0px 0px 10px grey;
+
+.card {
+	box-shadow: 0px 0px 10px black;
 }
-.Kontakt .fa-discord{
-	font-size: 50px; 
+
+.zespol {
+	box-shadow: 0px 0px 15px black;
+	transition: all 0.5s ease;
+}
+
+.zespol:hover {
+	border-radius: 5%;
+	transform: rotate(3deg);
+}
+
+.zespol1 {
+	transition: all 0.3s ease-in-out;
+}
+
+.zespol1:hover {
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
+
+}
+
+.Kontakt .fa-discord {
+	font-size: 50px;
 	margin: 20px 30px;
 	color: black;
-	
+	transition: all .5s;
 }
-.Kontakt .fa-discord:hover{
+
+.Kontakt .fa-discord:hover {
 	margin: 20px 30px;
 	color: #7289DA;
-	transition: all .3s;
+
 	transform: scale(1.2);
+}
+
+
+.pierwszy {
+	background-color: #d7b94b;
+	width: 100%;
+	border-radius: 5px;
+	margin: auto;
+	font-weight: bold;
+	color: white;
+}
+
+.drugi {
+	background-color: #c0c0c0;
+	width: 100%;
+	border-radius: 5px;
+	margin: auto;
+	font-weight: bold;
+	color: white;
+}
+
+.trzeci {
+	background-color: #c08457;
+	width: 100%;
+	border-radius: 5px;
+	margin: auto;
+	font-weight: bold;
+	color: white;
+}
+
+.najszybszy {
+	color: #ca43ff;
+	font-weight: bold;
+}
+
+.dnf {
+	background-color: black;
+	width: 100%;
+	border-radius: 5px;
+	margin: auto;
+	color: white;
+	font-weight: bold;
+}
+
+.kolorz {
+	background-color: red;
+	width: 13px;
+	height: 100%;
+	display: block;
+}
+
+@media (max-width: 1189px) {
+	.carousel-caption {
+		top: 54%;
+	}
+
+	.carousel-caption h1 {
+		font-size: 190%;
+	}
+
+	.carousel-caption h2 {
+		font-size: 120%;
+	}
+
+	.carousel-caption button {
+		font-size: 120%;
+	}
+}
+
+@media (max-width: 768px) {
+	.carousel-caption {
+		top: 46%;
+	}
+
+	.carousel-caption h1 {
+		font-size: 100%;
+	}
+
+	.carousel-caption h2 {
+		font-size: 90%;
+	}
+
+	.carousel-caption button {
+		font-size: 70%;
+	}
+}
+
+@media (max-width: 576px) {
+	.carousel-caption {
+		top: 40%;
+	}
+
+	.carousel-caption h1 {
+		font-size: 85%;
+	}
+
+	.carousel-caption h2 {
+		font-size: 70%;
+	}
+
+	.carousel-caption button {
+		font-size: 50%;
+	}
+
+	.Kierowcy {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 374px) {
+	.carousel-caption {
+		top: 35%;
+	}
+
+	.carousel-caption h1 {
+		font-size: 50%;
+	}
+
+	.carousel-caption h2 {
+		font-size: 30%;
+	}
+
+	.carousel-caption button {
+		font-size: 30%;
+	}
+
+
+}
+
+.S6 {
+	background-color: #660c18;
+}
+
+.S6-pasek {
+	border-top: 2px solid #660c18;
+	margin: auto;
+	left: 0;
+	right: 0;
+	width: 50%;
+}
+
+.wyniki {
+	width: 60%;
+	height: 60%;
+}
+
+#KUSZD {
+	width: 200px;
+	height: 56px;
+	margin-right: 10px;
+}
+
+#BK {
+	width: 200px;
+	height: 122px;
+}
+
+#RF {
+	width: 200px;
+	height: 224px;
+}
+
+#MOTO {
+	width: 200px;
+	height: 224px;
+}
+
+@media (max-width: 424px) {
+	.Partner {
+		font-size: 120%;
+	}
+
+	#KUSZD {
+		width: 100px;
+		height: 28px;
+		margin-right: 10px;
+	}
+
+	#BK {
+		width: 100px;
+		height: 61px;
+	}
+
+	#RF {
+		width: 100px;
+		height: 112px;
+	}
+
+	#MOTO {
+		width: 100px;
+		height: 112px;
+	}
+}
+
+.filmik {
+	width: 1112px;
+	height: 630px;
+}
+
+@media (max-width: 1199px) {
+	.filmik {
+		width: 840px;
+		height: 472px;
+	}
+}
+
+@media (max-width: 991px) {
+	.filmik {
+		width: 560px;
+		height: 315px;
+	}
+}
+
+@media (max-width: 767px) {
+	.filmik {
+		width: 420px;
+		height: 236px;
+	}
+}
+
+@media (max-width: 458px) {
+	.filmik {
+		width: 280px;
+		height: 157px;
+	}
+}
+
+@media (max-width: 315px) {
+	.filmik {
+		width: 210px;
+		height: 117px;
+	}
+}
+
+.card-body {
+	text-align: left;
+}
+
+@media (max-width: 315px) {
+	.card-title {
+		font-size: 50%;
+		padding: 1%;
+	}
+
+	.card-body {
+		font-size: 50%;
+		padding: 10%;
+	}
+}
+
+@media (max-width: 458px) {
+	.card-title {
+		font-size: 90%;
+	}
+}
+
+@media (max-width: 458px) {
+	.zdjb {
+		width: 112px;
+		height: 23px;
+	}
+}
+
+@media (max-width: 458px) {
+	.zdjb {
+		width: 84px;
+		height: 17px;
+	}
 }
